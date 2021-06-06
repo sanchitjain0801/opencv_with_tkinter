@@ -93,6 +93,11 @@ def select_image():
 
 
 root = Tk()
+
+Label(root, text='Quality of downloaded image will be better then shown',
+      font='arial 10 bold').pack()
+
+
 panelA = None
 panelB = None
 panelC = None
